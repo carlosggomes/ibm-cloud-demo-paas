@@ -1,5 +1,5 @@
 {
-  "name": "rpg-serverless",
+  "name": "ibm-cloud-demo-paas",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
