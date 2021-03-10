@@ -14,7 +14,7 @@ export class MessageService {
 
   getRooms(parametro: number): Observable<Room> {
     var url: string;
-    url = "https://us-south.functions.appdomain.cloud/api/v1/web/7ad9fcc4-9f77-43bc-a3cf-a1eb302381a5/ibmcloud/sequence-read-cloudant.json?id=" + parametro;
+    url = "https://eu-de.functions.appdomain.cloud/api/v1/web/c3f54f07-8e31-43ca-8a55-2d957d654b9d/demo-paas/demo-paas-sequence.json?id=" + parametro;
     console.log("url", url);
     return this.http.get<Room>(url)
       .pipe(
@@ -23,3 +23,5 @@ export class MessageService {
 
   }
 }
+
+
